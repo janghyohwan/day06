@@ -1,0 +1,54 @@
+.last {
+  display: flex;
+  flex-direction: row;
+}
+.quiz {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(173, 173, 243);
+  border-radius: 9999px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.icon {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+.info {
+  text-decoration: underline;
+}
+
+.menu {
+  width: 300px;
+}
+.image {
+  width: 300px;
+  position: relative;
+}
+.name {
+  font-size: 20px;
+  font-weight: 700;
+  border-bottom: 1px solid rgb(202, 199, 199);
+  padding-bottom: 20px;
+  margin-bottom: 5px;
+}
+.english {
+  color: gray;
+  margin-bottom: 15px;
+  font-size: 13px;
+}
+.latteinfo {
+  color: gray;
+  font-size: 13px;
+}
+.hot {
+  background-color: red;
+  color: white;
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  border-radius: 9999px;
+  padding: 5px 10px;
+}

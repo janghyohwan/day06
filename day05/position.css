@@ -1,0 +1,30 @@
+.column {
+  display: flex;
+  flex-direction: column;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.box {
+  width: 300px;
+  height: 300px;
+}
+
+.color {
+  background-color: yellow;
+}
+.color2 {
+  background-color: aqua;
+}
+.color3 {
+  background-color: blueviolet;
+}
+.color4 {
+  background-color: blue;
+}
+.minibox {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}

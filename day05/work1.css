@@ -1,0 +1,41 @@
+.squareLayout {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.squareIcon {
+  width: 300px;
+  background-color: blueviolet;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  gap: 20px;
+  padding: 30px 20px;
+}
+.icon {
+  background-color: white;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  font-size: 40px;
+  border-radius: 9999px;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.sub {
+  font-size: 10px;
+}
+.main {
+  font-size: 20px;
+  font-weight: 700;
+}
