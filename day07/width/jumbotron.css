@@ -1,0 +1,67 @@
+.jumbotron {
+  height: 80vh;
+  background-color: brown;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("henning-witzel-ukvgqriuOgo-unsplash.jpg");
+}
+.jumbotron > .contents {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.innovation {
+  font-size: 50px;
+  margin-bottom: 40px;
+}
+.info {
+  font-size: 12px;
+  margin-bottom: 40px;
+}
+.button {
+  width: fit-content;
+  padding: 5px 180px;
+  border: 1px solid black;
+}
+.hero {
+  height: 80vh;
+  background-color: beige;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+article {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+article > .contents {
+  font-size: 20px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.picture {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: fit-content;
+  gap: 20px;
+}
+.mainname {
+  font-weight: 700;
+}
+.subname {
+  color: gray;
+}
+.boxbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
